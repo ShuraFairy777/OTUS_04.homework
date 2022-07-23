@@ -3,9 +3,9 @@
 #include "types.h"
 #include <memory>
 
-int checkPointInFigure(const std::shared_ptr<Document> figs, int x, int y)
+int checkPointInFigure(const std::shared_ptr<Document> figures, int x, int y)
 {
-    auto p = figs.get();
+    auto p = figures.get();
     for (int i = p->size() - 1; i != 0; --i)
     {
         if (p->at(i)->checkPointInside(x, y))
