@@ -1,3 +1,4 @@
+#include "lib.h"
 #include <cstdlib>
 #include <iostream>
 #include "shape.h"
